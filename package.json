@@ -1,0 +1,28 @@
+{
+   "name": "email-builder",
+   "version": "1.0.0",
+   "description": "Email Builder with Webpack",
+   "browserslist": [
+      "> 2%"
+   ],
+   "scripts": {
+      "dev": "webpack -d --watch",
+      "prod": "webpack -p"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/penhold3r/email-builder.git"
+   },
+   "author": "penholder",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/penhold3r/email-builder/issues"
+   },
+   "homepage": "https://github.com/penhold3r/email-builder#readme",
+   "devDependencies": {
+      "css-loader": "^0.28.11",
+      "webpack": "^4.15.1",
+      "webpack-cli": "^2.1.5"
+   },
+   "dependencies": {}
+}
