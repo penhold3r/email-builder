@@ -1,0 +1,11 @@
+.content {
+   background: #FFF;
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 10px;
+   text-align: initial;
+}
+
+.content img {
+   width: 100%;
+}

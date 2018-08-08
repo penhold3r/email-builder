@@ -27,7 +27,16 @@ module.exports = {
             ]
          },
          {
-            test: /\.(png|jpg)$/,
+            test: /\.html$/,
+            use: [
+               {
+                  loader: 'html-loader',
+                  options: {}
+               }
+            ]
+         },
+         {
+            test: /\.(png|jpe?g|gif)$/,
             use: [
                {
                   loader: 'url-loader',
