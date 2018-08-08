@@ -1,1 +1,1 @@
-# email-builder
+# Email builder with webpack
